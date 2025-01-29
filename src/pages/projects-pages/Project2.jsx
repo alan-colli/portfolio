@@ -16,8 +16,8 @@ function Route2() {
         <p className="text-lg sm:text-xl mb-2 lg:text-7xl lg:my-24">
           On the FrontEnd, I used ReactJS for building the user interface,
           TailwindCSS for styling, and Axios to handle API requests. On the
-          BackEnd, I created the API from scratch using Node.js and integrated
-          it with a SQLite database for data storage.
+          BackEnd, I created the API from scratch using Node.js and express, and
+          integrated it with a SQLite database for data storage.
         </p>
         <p className="text-lg sm:text-xl mb-2 lg:text-7xl lg:my-24">
           As helper tools, I used DBeaver to manage the database and Insomnia to
