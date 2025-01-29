@@ -11,7 +11,7 @@ export default function Contact() {
   };
   return (
     <div className="bg-black w-full min-h-screen flex justify-center items-center">
-      <div className="flex flex-col space-y-32 lg:space-y-48">
+      <div className="flex flex-col space-y-32 lg:space-y-24">
         <a
           href="https://linkedin.com/in/alan-colli-314ab028a"
           target="_blank"
