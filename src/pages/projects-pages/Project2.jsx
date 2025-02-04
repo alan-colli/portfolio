@@ -63,7 +63,7 @@ function Route2() {
           </div>
           <div className="mb-6">
             <p className="text-lg sm:text-xl mb-2 lg:text-4xl lg:my-24">
-              deleting a contact:
+              Deleting a contact:
             </p>
             <div className="relative">
               <img
