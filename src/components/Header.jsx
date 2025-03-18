@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
+import favicon from "../figures/favicon/favicon.png";
 
 function Header() {
   const location = useLocation();
@@ -36,11 +37,12 @@ function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <motion.div whileHover={{ scale: 1.05 }} className="flex-shrink-0">
-            <Link
-              to="/"
-              className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent"
-            >
-              Home
+            <Link to="/" className="flex items-center">
+              <img
+                src={favicon}
+                alt="Logo"
+                className="w-12 h-12 rounded-full"
+              />
             </Link>
           </motion.div>
 
