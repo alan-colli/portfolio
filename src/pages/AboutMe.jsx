@@ -15,7 +15,7 @@ export default function AboutMe() {
 
         <div className="space-y-6 text-lg lg:text-xl">
           <p className="leading-relaxed">
-            Hi! I'm Alan Colli, a Full Stack developer passionate about creating
+            I'm Alan, a Full Stack developer passionate about creating
             innovative and efficient web solutions. My journey in programming
             began with a curiosity about how technology can transform people's
             lives.
@@ -48,18 +48,32 @@ export default function AboutMe() {
               </div>
               <div className="flex items-center space-x-2">
                 <span className="text-green-400">▹</span>
-                <span>SQL</span>
+                <span>PL/SQL</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span className="text-green-400">▹</span>
+                <span>PostgreSQL</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span className="text-green-400">▹</span>
+                <span>Python</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span className="text-green-400">▹</span>
+                <span>SQLite</span>
+              </div>
+              <div className="flex items-center space-x-2">
+                <span className="text-green-400">▹</span>
+                <span>Git</span>
               </div>
             </div>
           </div>
 
           <div className="bg-gray-800 p-6 rounded-lg shadow-xl">
             <h2 className="text-2xl lg:text-3xl font-semibold mb-4 text-blue-400">
-              Educação
+              Education
             </h2>
-            <p className="mb-2">
-              🎓 Bachelor's Degree in Systems Analysis and Development
-            </p>
+            <p className="mb-2">Degree in Systems Analysis and Development</p>
             <p className="text-gray-400">
               Focused on web development and software architecture
             </p>
