@@ -1,8 +1,88 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio developed with React, Vite, and TailwindCSS. The website features a modern and responsive interface, with smooth animations and an optimized user experience.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 18
+- Vite
+- TailwindCSS
+- Framer Motion
+- React Router DOM
+- Typewriter Effect
+
+## Features
+
+- Modern and responsive design
+- Smooth animations with Framer Motion
+- Intuitive navigation
+- Well-organized sections:
+  - Home
+  - About Me
+  - Projects
+  - Contact
+- Gradients and visual effects
+- Light/dark theme support
+- Performance optimized
+
+## How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/portfolio.git
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the project in development mode:
+
+```bash
+npm run dev
+```
+
+4. For production build:
+
+```bash
+npm run build
+```
+
+## Deploy
+
+The project is configured for deployment on GitHub Pages. To deploy:
+
+```bash
+npm run deploy
+```
+
+## Project Structure
+
+```
+portfolio/
+├── src/
+│   ├── components/
+│   │   └── Header.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── AboutMe.jsx
+│   │   ├── Projects.jsx
+│   │   └── Contact.jsx
+│   ├── figures/
+│   ├── App.jsx
+│   └── main.jsx
+├── public/
+├── index.html
+└── package.json
+```
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or send pull requests.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
