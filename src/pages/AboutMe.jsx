@@ -60,7 +60,7 @@ export default function AboutMe() {
               </div>
               <div className="flex items-center space-x-2">
                 <span className="text-green-400">▹</span>
-                <span>SQLite</span>
+                <span>Express</span>
               </div>
               <div className="flex items-center space-x-2">
                 <span className="text-green-400">▹</span>
